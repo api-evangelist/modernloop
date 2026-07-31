@@ -1,7 +1,31 @@
 aid: modernloop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modernloop.png
 name: ModernLoop
-description: 'ModernLoop is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: hr-tech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  ModernLoop is an automated interview scheduling and recruiting-operations
+  platform for talent-acquisition teams, now paired with "Taylor AI," a
+  configurable AI recruiting agent. It coordinates interviewer calendars,
+  balances load, and schedules complex interview loops across time zones to cut
+  time-to-hire and improve candidate experience. ModernLoop integrates deeply
+  with applicant tracking systems (Greenhouse, Lever, Ashby, Workday,
+  SmartRecruiters, Avature), calendar and video tools (Google, Microsoft
+  Outlook/Teams, Zoom, Google Meet), communication (Slack, Gmail), coding
+  assessment (CoderPad, CodeSignal, Codility, HackerRank), and SSO providers
+  (Okta, Microsoft Entra ID). The platform is delivered as SaaS: it consumes
+  partner APIs but does not publish a public developer API, SDK, or MCP server.
+  Backed by Accel. This profile was enriched from ModernLoop's public site,
+  trust center, and status page.
 url: https://raw.githubusercontent.com/api-evangelist/modernloop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hr Tech
+- Recruiting
+- Interview Scheduling
+- Talent Acquisition
+- Hiring
+- AI Agents
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +53,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.modernloop.io
+  url: https://modernloop.com
+- type: Blog
+  url: https://modernloop.com/blog/
+- type: Support
+  url: https://modernloop.com/contact/
+- type: Login
+  url: https://app.modernloop.io/
+- type: TermsOfService
+  url: https://modernloop.com/tos/
+- type: PrivacyPolicy
+  url: https://modernloop.com/privacy/
+- type: Integrations
+  url: https://modernloop.com/integrations/
+- type: StatusPage
+  url: https://status.modernloop.io/
+- type: TrustCenter
+  url: https://trust.modernloop.io/
+- type: Compliance
+  url: https://modernloop.com/security/
+- type: SLA
+  url: https://modernloop.com/sla/
+- type: Lifecycle
+  url: lifecycle/modernloop-lifecycle.yml
+- type: DomainSecurity
+  url: security/modernloop-domain-security.yml
+- type: WellKnown
+  url: well-known/modernloop-well-known.yml
+- type: LLMsTxt
+  url: llms/modernloop-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

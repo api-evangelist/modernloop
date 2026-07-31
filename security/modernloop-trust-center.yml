@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://modernloop.com/security/
+url: https://trust.modernloop.io/
+platform: Vanta
+certifications:
+- SOC 2 Type 2
+- ISO 27001:2022
+- ISO 27701:2019
+compliance:
+- GDPR
+- CCPA
+controls:
+- encryption at rest (AES-256)
+- encryption in transit (TLS 1.2+)
+- logical tenant separation
+- encrypted backups with defined RTO/RPO
+evidence:
+- source: https://modernloop.com/security/
+  keywords: [soc 2 type 2, iso 27001:2022, iso 27701:2019, gdpr, ccpa, vanta, trust center]
+- source: https://trust.modernloop.io/
+  keywords: [trust center, continuously monitored by vanta]
+notes: >-
+  Live Vanta-hosted trust center; security controls continuously monitored.
+  Additional security documentation is available on request through the trust
+  center portal. No HIPAA or PCI DSS claimed.

@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of ModernLoop hosts
+hosts:
+- host: https://modernloop.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://www.modernloop.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: >-
+  No /.well-known/ discovery documents or llms.txt were published at the probe
+  time. ModernLoop exposes a Vanta trust center (trust.modernloop.io) and an
+  Atlassian status page (status.modernloop.io) instead. Empty is expected for a
+  SaaS with no public API surface.

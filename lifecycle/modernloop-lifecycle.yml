@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://modernloop.com/security/
+sla:
+  url: https://modernloop.com/sla/
+  uptime_target: "99.9%"
+status_page:
+  url: https://status.modernloop.io/
+  platform: Atlassian Statuspage
+  components:
+  - ModernLoop Application
+  - TaylorAI
+  - Homepage
+  - Login (Auth0)
+  - AWS infrastructure (EC2, RDS, EKS, CloudWatch, GuardDuty, ELB)
+  - SendGrid email
+  - Google Calendar / Meet
+  - Slack
+  - Zoom
+  - Lever Hire (ATS)
+  - Ashby (ATS)
+versioning: null
+deprecation: null
+deprecated_operations: []
+notes: >-
+  ModernLoop publishes no public API, so there is no API versioning or
+  deprecation policy. Operational transparency is provided via a public
+  Atlassian Statuspage and a 99.9% uptime SLA.
